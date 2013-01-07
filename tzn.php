@@ -4,6 +4,8 @@
 // them in a relational database.
 //
 // Group Informatics Research Lab, Open source
+// Original PhP Code and database Developed by Alan Black with contributions from 
+// Christopher Mascaro, Michael Gallagher & Sean Goggins
 
 //
 // Initialize/Startup
