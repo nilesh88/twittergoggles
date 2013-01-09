@@ -4,7 +4,7 @@
 	
 	function testAlpha ($str)
 		{
-			if (preg_match('A-Z', $str))
+			if (preg_match(/^['A-Za-z]+$/', $str))
 				return True;
 			else 
 				return False;
