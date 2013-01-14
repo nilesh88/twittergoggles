@@ -1,7 +1,11 @@
 <?php
 
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
+/*test case for testAlpha
  */
+
+/*test case for testnumber
+ */
+
+echo "hello world";
+
 ?>
