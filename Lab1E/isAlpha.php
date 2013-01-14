@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -7,11 +6,11 @@
     <body>
         <?php
 
-        function isNumeric($test) {
-            if (is_numeric($test)) {
-                echo "<p>" . $test . " is numeric </p>";
+        function isAlpha($var) {
+            if (ctype_alpha($var)) {
+                echo "<p>" . $var . " is alphabetic </p>";
             } else {
-                echo "<p>" . $test . " is not numeric </p>";
+                echo "<p>" . $var . " is not alphabetic </p>";
             }
         }
         ?>
