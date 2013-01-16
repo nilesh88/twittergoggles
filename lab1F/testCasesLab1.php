@@ -1,5 +1,6 @@
 <?php
 include 'testNum.php';
+include 'testAlphaCode.php';
 /*lab1 INFO 154 Jan 16, 2013
  * 
  * John Carrol-testNum
@@ -11,7 +12,7 @@ include 'testNum.php';
 
                
         /*test case for testAlpha
-        
+        */
           
         $abc = "abc";
         $alphabet = "abcdefghijklmnopqrstuvwxyz";
@@ -24,7 +25,7 @@ include 'testNum.php';
         
         /*echos testAlpha script to verify our function 
          *is looking working as we designed it to based
-         *on the requirements
+         *on the requirements*/
          
         echo "Here is the test cases for testing the testAlpha function";
         echo "<br>";
