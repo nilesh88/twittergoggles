@@ -1,4 +1,5 @@
 <?php
+include 'testNum.php';
 /*lab1 INFO 154 Jan 16, 2013
  * 
  * John Carrol-testNum
@@ -8,9 +9,9 @@
         
         
 
-                
+               
         /*test case for testAlpha
-        */
+        
           
         $abc = "abc";
         $alphabet = "abcdefghijklmnopqrstuvwxyz";
@@ -24,7 +25,7 @@
         /*echos testAlpha script to verify our function 
          *is looking working as we designed it to based
          *on the requirements
-         */
+         
         echo "Here is the test cases for testing the testAlpha function";
         echo "<br>";
         echo "abc is ".testAlpha($abc);
@@ -53,6 +54,10 @@
         $numnull = "";
         $alpha = "abc";
         $comma = "1,500";
+        $comma1 = "1,500,000";
+        $comma2 = "1,50";
+        $comma3 = "1,500,00";
+        $comma4 = "1,500,000,000";
         
         
         
@@ -64,17 +69,21 @@
         
         echo "Here is the test cases for testing the testNUM function";
         echo "<br>";
-        echo "0 is ".testNUM($num);
-        echo "0.1 is ".testNUM($digit);
-        echo "+4 is ".testNUM($positive);
-        echo "-9 is ".testNUM($neg);
-        echo "123 is ".testNUM($number);
-        echo "3-5 is ".testNUM($minusnum);
-        echo "123abc is ".testNUM($numberabc);
-        echo "abc123 is ".testNUM($abcnumber);
-        echo "ab12cd is ".testNUM($abnumcd);
-        echo " is ".testNUM($numnull);
-        echo "abc is ".testNUM($alpha);
-        echo "1,500 is ".testNUm($comma);
+        echo "0 is ".testNUM($num)."<br>";
+        echo "0.1 is ".testNUM($digit)."<br>";
+        echo "+4 is ".testNUM($positive)."<br>";
+        echo "-9 is ".testNUM($neg)."<br>";
+        echo "123 is ".testNUM($number)."<br>";
+        echo "3-5 is ".testNUM($minusnum)."<br>";
+        echo "123abc is ".testNUM($numberabc)."<br>";
+        echo "abc123 is ".testNUM($abcnumber)."<br>";
+        echo "ab12cd is ".testNUM($abnumcd)."<br>";
+        echo " is ".testNUM($numnull)."<br>";
+        echo "abc is ".testNUM($alpha)."<br>";
+        echo "1,500 is ".testNUm($comma)."<br>";
+        echo "1,500,000 is ".testNUm($comma1)."<br>";
+        echo "1,50 is ".testNUm($comma2)."<br>";
+        echo "1,500,00 is ".testNUm($comma3)."<br>";
+        echo "1,500,000,000 is ".testNUm($comma4)."<br>";
         
         ?>
