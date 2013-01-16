@@ -12,7 +12,7 @@
 		{
 			foreach ($str)
 			{
-				if (preg_match(/^['A-Za-z_]+$/', $str))
+				if (preg_match(/^['A-Za-z_]*/$', $str))
 					return True;
 				else if ("", $str)
 					return False;
