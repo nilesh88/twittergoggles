@@ -29,13 +29,13 @@ include 'testAlphaCode.php';
          
         echo "Here is the test cases for testing the testAlpha function";
         echo "<br>";
-        echo "abc is ".testAlpha($abc);
-        echo "abcdefghijklmnopqrstuvwxyz is ".testAlpha($alphabet);
-        echo " is ".testAlpha($null);
-        echo "123 is ".testAlpha($nums);
-        echo "abc123 is ".testAlpha($abc123);
-        echo "ab12cd is ".testAlpha($ab12cd);
-        echo "123abc is ".testAlpha($numabc);
+        echo "abc is ".testAlpha($abc)."<br>";
+        echo "abcdefghijklmnopqrstuvwxyz is ".testAlpha($alphabet)."<br>";
+        echo "NULL is ".testAlpha($null)."<br>";
+        echo "123 is ".testAlpha($nums)."<br>";
+        echo "abc123 is ".testAlpha($abc123)."<br>";
+        echo "ab12cd is ".testAlpha($ab12cd)."<br>";
+        echo "123abc is ".testAlpha($numabc)."<br>";
  /*-----------------------------------------------------------------------------
   */      
 
@@ -79,7 +79,7 @@ include 'testAlphaCode.php';
         echo "123abc is ".testNUM($numberabc)."<br>";
         echo "abc123 is ".testNUM($abcnumber)."<br>";
         echo "ab12cd is ".testNUM($abnumcd)."<br>";
-        echo " is ".testNUM($numnull)."<br>";
+        echo "NULL is ".testNUM($numnull)."<br>";
         echo "abc is ".testNUM($alpha)."<br>";
         echo "1,500 is ".testNUm($comma)."<br>";
         echo "1,500,000 is ".testNUm($comma1)."<br>";

@@ -9,15 +9,14 @@
 <?php
 
 	function testAlpha ($str)
-		{
-			foreach ($str)
-			{
-				if (preg_match(/^['A-Za-z_]*/$', $str))
-					return True;
-				else if ("", $str)
-					return False;
-				else 
-					return False;
-		}}
+		{	
+            if (preg_match('/^[A-Za-z_\$]+$/', $str))
+                return "TRUE";
+            elseif(strcmp("",$str))
+		return "FALSE";
+            else 
+		return "FALSE";
+		}
+                
 			
 ?>

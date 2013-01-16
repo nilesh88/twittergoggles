@@ -30,12 +30,12 @@ include 'countNums.php';
                  
              }
              if($answer == FALSE){ //if there is no match on ANY run through ($answers = FALSE) return FALSE
-                 return FALSE;
+                 return "FALSE";
              }
              $count++; //increases count
           }
           
-          return TRUE;
+          return "TRUE";
           
       }
       
