@@ -6,7 +6,7 @@
     </head>
     <body>
         <?php
-        foreach ($strings as $tests){
+        foreach($strings as $tests){
             if (ctype_alpha($tests)){
                 echo "True \n";
             } else {
