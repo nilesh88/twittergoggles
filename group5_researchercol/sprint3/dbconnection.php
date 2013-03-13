@@ -2,10 +2,12 @@
          // Created class
         class QueryDatabase {
             public $db;
-            public function __construct($sampleDatabase){
-                $dsn = "mysql:host=sociotechnical.ischool.drexel.edu;dbname=".$sampleDatabase;
-                $userName = "student";
-                $password = "dragon900";
+            public function __construct(){
+                $dbname = '_zgroup';
+                $dsn = "mysql:host=sociotechnical.ischool.drexel.edu;dbname=".$dbname;
+                $userName = 'student';
+                $password = 'dragon900';
+               
                 
             try{
                     // use PDO method for connection

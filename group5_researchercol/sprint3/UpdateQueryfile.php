@@ -13,7 +13,7 @@ $search_phrase = $_POST["search_request"];
 $query1 = 'select `jobs` from `researcher_job` where `jobs` = "'.$search_phrase.'"';
 $query2 = 'select `firstName`, `lastName`, `email` from `researcher_info` where `firstName` = "'.$first.'" and `lastName` = "'.$last.'" and `email` = "'.$email.'"';
 //Created new Database object
-$result = new QueryDatabase('_zgroup');
+$result = new QueryDatabase();
 
 // Executed query using class method
 $prepare1 = $result->prepare_query($query1);

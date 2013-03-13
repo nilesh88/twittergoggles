@@ -9,7 +9,7 @@ WHERE researcher_info.email = '" . $emailAddress . "'";
 
 try {
     //Created new Database object
-    $result = new QueryDatabase('_zgroup');
+    $result = new QueryDatabase();
     // Executed query using class method
     $prepare1 = $result->prepare_query($query1);
     echo '<div class="container">';
